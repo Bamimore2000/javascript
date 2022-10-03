@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cornsilk;
+    text-align: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 50px;
+    color:black;
+}
+button {
+    background-color: rgb(18, 0, 0);
+    color: rgb(243, 243, 243);
+    padding: 15px 30px;
+    border: none;
+    margin-top: 10px;
+    font-size: 30px;
+}
+#increment-btn{
+    background-color: blueviolet;
+}
+#save-btn{
+    display: block;
+    background-color:green;
+    border-radius: 5px;
+}
+#error{
+    color: red;
+}
+span{
+    display: inline;
+    width: 60px;
+    margin-right: 10px;
+    background-color: azure;
+    color: blue;
+}
+.calculator{
+    display: flex;
+    gap: 10px;
+}
+.calculator div{
+    height: 70px;
+    width: 70px;
+    background-color: chartreuse;
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
